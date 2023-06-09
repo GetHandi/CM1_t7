@@ -47,7 +47,10 @@ double tangent = 0.0; //
 
 int main()
 {
-	/*int n = 0;
+	/*
+    cout << "x + 2^x + 5 = 0" << endl << endl;
+
+	int n = 0;
 	c = (a * fxa(b) - b * fxa(a)) / (fxa(b) - fxa(a));
 	if (fxa(a) * ddfxa(a) > 0)
 		temp = a;
@@ -86,6 +89,7 @@ int main()
 	return (a + b) / 2;*/
 
 
+	cout << "3x^3 + x^2 + 2x + 3 = 0" << endl << endl;
 	int n = 0;
 	c = (a * fxb(b) - b * fxb(a)) / (fxb(b) - fxb(a));
 	if (fxb(a) * ddfxb(a) > 0)
